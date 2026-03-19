@@ -2,6 +2,8 @@
 
 A full-stack e-commerce web application built with React (TypeScript) on the frontend and Node.js + Express on the backend for my CodeAlpha internship (task 1).
 
+Visit the site live at: https://code-alpha-frostline.vercel.app/
+
 ![overview screenshot](public/thumbnail.png)
 
 ---
