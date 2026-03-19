@@ -4,6 +4,8 @@ import { Button } from '@/components/ui/button';
 import heroImg from '@/assets/hero-landing.jpg';
 import secondaryImg from '@/assets/hero-secondary.jpg';
 import collectionImg from '@/assets/hero-collection.jpg';
+import electronicsImg from '@/assets/electronics.jpg';
+import homeFurnitureImg from '@/assets/home-furniture.jpg';
 
 const CATEGORIES = [
   'ELECTRONICS', 'CLOTHING', 'BOOKS', 'HOME', 'ACCESSORIES', 'NEW ARRIVALS'
@@ -35,7 +37,7 @@ export default function Index() {
                 </Button>
               </Link>
               <Link to="/register">
-                <Button size="lg" variant="outline" className="rounded-full border-white/30 px-8 text-white hover:bg-white/10">
+                <Button size="lg" variant="outline" className="rounded-full border-white bg-white/10 px-8 text-accent backdrop-blur-sm hover:bg-white/20">
                   Create Account
                 </Button>
               </Link>
@@ -118,7 +120,7 @@ export default function Index() {
           {['Electronics', 'Clothing', 'Home'].map((cat, i) => (
             <div key={cat} className="group relative overflow-hidden rounded-xl">
               <img
-                src={i === 2 ? collectionImg : i === 1 ? secondaryImg : heroImg}
+                src={i === 0 ? electronicsImg : i === 1 ? secondaryImg : homeFurnitureImg}
                 alt={cat}
                 className="h-72 w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
