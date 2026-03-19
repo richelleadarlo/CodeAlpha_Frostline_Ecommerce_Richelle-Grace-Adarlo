@@ -1,6 +1,6 @@
-# 🛒 Simple E-Commerce Store
+# Simple E-Commerce Store (Full Stack)
 
-A full-stack e-commerce web application built with React (TypeScript) on the frontend and Node.js + Express on the backend.
+A full-stack e-commerce web application built with React (TypeScript) on the frontend and Node.js + Express on the backend for my CodeAlpha internship (task 1).
 
 ---
 
